@@ -7,7 +7,7 @@ struct Node {
     int    index;
     double x;
     double y;
-    int    score;
+    int    profit;
 };
 
 struct Instance {
