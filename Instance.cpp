@@ -5,14 +5,15 @@
 #include <iostream>
 #include <cmath>
 
+// Prvý vrchol v zozname je vždy štartovací
 const Node& Instance::start() const {
     return nodes.front();
 }
-
+// posledný je vždy cieľový
 const Node& Instance::end() const {
     return nodes.back();
 }
-
+// Euklidovská vzdialenosť medzi vrcholmi i a j
 double Instance::distance(int i, int j) const {
     double dx = nodes[i].x - nodes[j].x;
     double dy = nodes[i].y - nodes[j].y;
@@ -40,14 +41,23 @@ Instance loadInstance(const std::string& filepath) {
         std::string token;
         iss >> token;
 
+        /*Formát vstupného súboru
+            n 32
+            m 2
+            tmax 7.5
+            10.50 14.40 0 // x y profit
+            18.00 15.90 10
+            ...
+        */
         if      (token == "n")    iss >> inst.n;
         else if (token == "m")    iss >> inst.m;
         else if (token == "tmax") iss >> inst.tMax;
         else {
+            // Riadok začína číslom = vrchol
             Node node;
-            node.index = (int)inst.nodes.size();
-            node.x     = std::stod(token);
-            iss >> node.y >> node.score;
+            node.index = (int)inst.nodes.size(); // automaticke cislo vrcholu
+            node.x     = std::stod(token); // prvy token je x
+            iss >> node.y >> node.profit;
             inst.nodes.push_back(node);
         }
     }
