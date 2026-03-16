@@ -8,6 +8,7 @@
 // Typ ukazovateľa na funkciu algoritmu, ktorá berie inštanciu a vracia riešenie
 // Každý algoritmus (napr. Greedy, VNS, GA) musí mať tento podpis
 //      Solution nazovFunkcie(const Instance& inst);
+// ekvivalentne using AlgoFunc = Solution (*)(const Instance&);
 typedef Solution (*AlgoFunc)(const Instance&);
 
 // Spustí algoritmus na všetkých inštanciách v jednom adresári
