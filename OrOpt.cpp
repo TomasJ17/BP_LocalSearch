@@ -6,7 +6,7 @@
 // cyklov (goto next_iteration) a zacne novu iteraciu while cyklu od zaciatku.
 // While cyklus opakuje cely prehlaad kym v celej iteracii nenajde ziadne zlepsenie.
 
-Solution orOpt(const Instance& inst, Solution sol) {
+Solution OrOpt(const Instance& inst, Solution sol) {
     bool improved = true;
 
     while (improved) {

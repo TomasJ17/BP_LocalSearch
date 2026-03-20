@@ -1,6 +1,12 @@
 #include "Greedy.h"
 
 Solution greedyInsert(const Instance& inst) {
+    std::vector<int> unvisited; 
+    return greedyInsert(inst, unvisited);
+}
+
+// Nová hlavná preťažená verzia, ktorá zároveň vráti aj zoznam nenavštívených vrcholov (okrem štartu a cieľa)
+Solution greedyInsert(const Instance& inst, std::vector<int>& unvisited) {
     Solution sol;
     // Začneme s trasou, ktorá obsahuje len štart a cieľ
     sol.route.push_back(inst.start().index);
@@ -50,6 +56,13 @@ Solution greedyInsert(const Instance& inst) {
         }
     // Opakuj kým je možné vložiť ďalší vrchol bez prekročenia tMax
     } while (feasible);
-    
+
+
+    // Zostav unvisited - vsetky vnutorne vrcholy ktore nie su v trase
+    unvisited.clear();
+    for (int j = 1; j < inst.n - 1; ++j)
+        if (!visited[j])
+            unvisited.push_back(j);
+
     return sol;
 }
