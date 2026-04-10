@@ -12,13 +12,13 @@
 typedef Solution (*AlgoFunc)(const Instance&);
 
 // Spustí algoritmus na všetkých inštanciách v jednom adresári
-// napr. dataDir = "Set_32_234", algoName = "GreedyII"
+
 ResultList runSet(const std::string& dataDir,
                   const std::string& algoName,
                   AlgoFunc algo);
 
 // Spustí na všetkých 3 sadách naraz
-// basePath = adresár kde ležia Set_32_234, Set_21_234, Set_33_234
+
 ResultList runAll(const std::string& basePath,
                   const std::string& algoName,  
                   AlgoFunc algo);
@@ -27,3 +27,8 @@ ResultList runAll(const std::string& basePath,
 void runSingle(const std::string& filepath,
                const std::string& algoName,
                AlgoFunc algo);
+
+// Spustí algoritmus na zadaných inštanciách (zoznam súborov) a vráti výsledky
+ResultList runInstances(const std::vector<std::string>& files,
+                          const std::string& algoName,
+                          AlgoFunc algo);

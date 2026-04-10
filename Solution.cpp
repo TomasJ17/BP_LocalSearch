@@ -3,8 +3,11 @@
 // Prejde celú trasu a spočíta súčet profitov navštívených vrcholov
 int Solution::totalScore(const Instance& inst) const {
     int s = 0;
-    for (int idx : route)
-        s += inst.nodes[idx].profit;
+    for (int idx : route){
+        if (idx >= 0 && idx < (int)inst.nodes.size()) {
+            s += inst.nodes[idx].profit;
+        }
+    }
     return s;
 }
 // Prejde celú trasu a spočíta súčet vzdialeností medzi po sebe idúcimi vrcholmi

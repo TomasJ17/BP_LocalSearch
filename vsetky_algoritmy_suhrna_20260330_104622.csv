@@ -1,0 +1,6 @@
+Algoritmus;Tsiligirides1_AvgGap%;Tsiligirides1_AvgCas_ms;Tsiligirides2_AvgGap%;Tsiligirides2_AvgCas_ms;Tsiligirides3_AvgGap%;Tsiligirides3_AvgCas_ms;Chao64_AvgGap%;Chao64_AvgCas_ms;Chao66_AvgGap%;Chao66_AvgCas_ms;TSPLIB_AvgGap%;TSPLIB_AvgCas_ms
+Greedy;22.50;1.31;15.32;0.48;8.86;2.24;15.81;19.09;6.29;24.54;17.02;274.31
+2-Opt;22.50;1.36;15.32;0.48;8.86;2.36;15.81;20.01;6.29;25.44;17.02;274.74
+Or-Opt;22.50;3.79;15.32;1.65;8.86;14.94;15.81;37.53;6.29;47.90;17.02;479.24
+Swap;22.50;1.80;15.32;0.68;8.86;2.83;15.81;20.93;6.29;28.00;17.02;303.90
+Replace;15.28;2.99;7.37;0.97;6.87;3.17;1.18;54.50;6.08;33.77;11.10;730.42

@@ -1,0 +1,29 @@
+TABULKA 1: PROFIT A CAS (GAP NA PROFIT)
+Algoritmus;Tsiligirides1_AvgProfitGap%;Tsiligirides1_AvgTime_ms;Tsiligirides2_AvgProfitGap%;Tsiligirides2_AvgTime_ms;Tsiligirides3_AvgProfitGap%;Tsiligirides3_AvgTime_ms;Chao64_AvgProfitGap%;Chao64_AvgTime_ms;Chao66_AvgProfitGap%;Chao66_AvgTime_ms;TSPLIB_AvgProfitGap%;TSPLIB_AvgTime_ms
+2-Opt;22.50;2.12;15.32;0.73;8.86;3.72;16.12;32.55;6.20;42.22;16.99;478.30
+2-Opt+Greedy;21.44;2.37;9.58;0.83;8.86;3.96;16.12;34.97;6.20;43.54;16.57;530.07
+Or-Opt;22.50;5.66;15.32;2.13;8.86;21.65;16.12;60.07;6.20;73.66;16.99;791.10
+Or-Opt+Greedy;20.72;6.03;7.99;2.32;5.08;22.03;15.24;64.11;6.20;75.67;15.12;882.63
+Swap;22.50;2.58;15.32;0.87;8.86;4.42;16.12;36.66;6.20;47.59;16.99;524.34
+Swap+Greedy;21.44;2.97;13.42;0.98;7.72;4.82;16.12;37.81;6.20;48.80;16.57;562.14
+Replace;20.11;3.24;9.28;1.18;8.33;4.53;7.45;61.87;6.13;47.19;13.53;695.35
+
+TABULKA 2: VZDIALENOST A CAS (GAP NA VZDIALENOST)
+Algoritmus;Tsiligirides1_AvgDistGap%;Tsiligirides1_AvgTime_ms;Tsiligirides2_AvgDistGap%;Tsiligirides2_AvgTime_ms;Tsiligirides3_AvgDistGap%;Tsiligirides3_AvgTime_ms;Chao64_AvgDistGap%;Chao64_AvgTime_ms;Chao66_AvgDistGap%;Chao66_AvgTime_ms;TSPLIB_AvgDistGap%;TSPLIB_AvgTime_ms
+2-Opt;0.90;2.12;6.95;0.73;0.10;3.72;0.00;32.55;0.02;42.22;2.04;478.30
+2-Opt+Greedy;0.31;2.37;-0.34;0.83;0.10;3.96;0.00;34.97;0.02;43.54;0.29;530.07
+Or-Opt;1.36;5.66;8.27;2.13;8.08;21.65;1.57;60.07;0.00;73.66;3.29;791.10
+Or-Opt+Greedy;0.04;6.03;-0.75;2.32;1.93;22.03;0.28;64.11;0.00;75.67;0.16;882.63
+Swap;0.71;2.58;4.04;0.87;3.66;4.42;0.00;36.66;0.00;47.59;1.52;524.34
+Swap+Greedy;0.08;2.97;1.35;0.98;2.16;4.82;0.00;37.81;0.00;48.80;0.20;562.14
+Replace;-2.04;3.24;-5.09;1.18;-0.51;4.53;-0.04;61.87;0.00;47.19;-0.03;695.35
+
+TABULKA 3: PROFIT A CELKOVY CAS (PO SKRATENI A VLOZENI)
+Algoritmus;Tsiligirides1_AvgProfitGap%;Tsiligirides1_AvgTime_ms;Tsiligirides2_AvgProfitGap%;Tsiligirides2_AvgTime_ms;Tsiligirides3_AvgProfitGap%;Tsiligirides3_AvgTime_ms;Chao64_AvgProfitGap%;Chao64_AvgTime_ms;Chao66_AvgProfitGap%;Chao66_AvgTime_ms;TSPLIB_AvgProfitGap%;TSPLIB_AvgTime_ms
+2-Opt;22.50;2.12;15.32;0.73;8.86;3.72;16.12;32.55;6.20;42.22;16.99;478.30
+2-Opt+Greedy;21.44;2.37;9.58;0.83;8.86;3.96;16.12;34.97;6.20;43.54;16.57;530.07
+Or-Opt;22.50;5.66;15.32;2.13;8.86;21.65;16.12;60.07;6.20;73.66;16.99;791.10
+Or-Opt+Greedy;20.72;6.03;7.99;2.32;5.08;22.03;15.24;64.11;6.20;75.67;15.12;882.63
+Swap;22.50;2.58;15.32;0.87;8.86;4.42;16.12;36.66;6.20;47.59;16.99;524.34
+Swap+Greedy;21.44;2.97;13.42;0.98;7.72;4.82;16.12;37.81;6.20;48.80;16.57;562.14
+Replace;20.11;3.24;9.28;1.18;8.33;4.53;7.45;61.87;6.13;47.19;13.53;695.35

@@ -6,4 +6,4 @@
 // Swap - First improvement
 // Vymiena dva vrcholy v trase
 // Podla pseudokodu Swap_First_Improvement(tour)
-Solution mySwap(const Instance& instance, Solution sol);
+Solution Swap(const Instance& instance, Solution sol);

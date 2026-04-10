@@ -1,0 +1,315 @@
+2548;0;Klokoèov
+2549;1692;Raková
+2550;1692;Zákopèie
+2551;1692;Staškov
+2552;0;Turzovka
+2553;0;Olešná
+2554;0;Podvysoká
+2555;0;Dlhá nad Kysucou
+2556;0;Koròa
+2557;22082;Nesluša
+2558;17217;Rudinská
+2559;23116;Rudina
+2560;23116;Rudinka
+2561;3623;Dlhé Pole
+2562;2298;Ve¾ké Rovné
+2563;0;Makov
+2564;0;Vysoká nad Kysucou
+2565;4162;Divina
+2566;4416;Svrèinovec
+2567;0;Èadca
+2568;9677;Skalité
+2569;9677;Èierne
+2570;12299;Ošèadnica
+2571;12823;Zborov nad Bystricou
+2572;7036;Klubina
+2573;7036;Stará Bystrica
+2574;0;Nová Bystrica
+2575;7036;Radôstka
+2576;4894;Lutiše
+2577;14042;Dunajov
+2578;7498;Lodno
+2579;35417;Povina
+2580;27840;Kysucké Nové Mesto
+2581;27394;Rado¾a
+2582;19818;Lopušné Paite
+2583;4292;Dolnı Vadièov
+2584;29965;Kysuckı Lieskovec
+2585;20976;Krásno nad Kysucou
+2586;29965;Ochodnica
+2587;3443;Oravská Lesná
+2588;0;Zákamenné
+2589;6764;Breza
+2590;828;Krušetnica
+2591;14229;Lokca
+2592;6764;Vasi¾ov
+2593;6764;Babín
+2594;2267;Hruštín
+2595;0;Lomná
+2596;963;Novo
+2597;963;Beòadovo
+2598;963;Mútne
+2599;0;Oravské Veselé
+2600;2100;Rabèice
+2601;15858;Zubrohlava
+2602;12062;Bobrov
+2603;14162;Rabèa
+2604;16559;Klin
+2605;16559;Námestovo
+2606;16784;Oravská Jasenica
+2607;16784;Vavreèka
+2608;3063;Dlhá nad Oravou
+2609;1441;Krivá
+2610;1441;Podbiel
+2611;0;Niná
+2612;11737;Tvrdošín
+2613;696;Štefanov nad Oravou
+2614;0;Oravská Polhora
+2615;0;Sihelné
+2616;0;Oravskı Biely Potok
+2617;15515;Trstená
+2618;16042;Liesek
+2619;14626;Èimhová
+2620;14626;Vitanová
+2621;14626;Hladovka
+2622;7648;Suchá Hora
+2623;7930;Zábiedovo
+2624;11505;Brezovica
+2625;0;Habovka
+2626;14991;Kolárovice
+2627;25067;Bytèa
+2628;20085;Kotešová
+2629;8381;Svederník
+2630;5159;Štiavnik
+2631;19117;Hvozdnica
+2632;17381;Predmier
+2633;17157;Jablonové
+2634;3979;Hornı Hrièov
+2635;18822;Hrièovské Podhradie
+2636;15514;Paština Závada
+2637;2751;Bitarová
+2638;3979;Ovèiarsko
+2639;15514;Dolnı Hrièov
+2640;735;Hôrky
+2641;735;Brezany
+2642;3301;Lietava
+2643;2772;Podhorie
+2644;8081;Lietavská Lúèka
+2645;0;ilina
+2646;4162;Divinka
+2647;4096;Rosina
+2648;2646;Višòové
+2649;3592;Turie
+2650;7021;Porúbka
+2651;2246;Lietavská Svinná - Babkov
+2652;3592;Stránske
+2653;3592;Rajecké Teplice
+2654;1475;Konská
+2655;1475;Kunerad
+2656;946;Kamenná Poruba
+2657;946;K¾aèe
+2658;1475;Zbyòov
+2659;946;Jasenové
+2660;0;Rajec
+2661;0;Ïurèiná
+2662;0;Ve¾ká Èierna
+2663;0;Malá Èierna
+2664;670;Rajecká Lesná
+2665;670;Faèkov
+2666;22783;Hlboké nad Váhom
+2667;670;Šuja
+2668;15960;Petrovice
+2669;18872;Snenica
+2670;2749;Hornı Vadièov
+2671;10314;Kotrèiná Lúèka
+2672;11394;Teplièka nad Váhom
+2673;12902;Nededza
+2674;13795;Gbe¾any
+2675;13795;Krasòany
+2676;13119;Stráa
+2677;13119;Dolná Tiina
+2678;10202;Lysica
+2679;5506;Belá
+2680;0;Terchová
+2681;2488;Zázrivá
+2682;12226;Nezbudská Lúèka
+2683;4490;Streèno
+2684;4490;Stráòavy
+2685;12902;Mojš
+2686;0;Vrútky
+2687;8158;Suèany
+2688;0;Lipovec
+2689;0;Turèianske K¾aèany
+2690;7247;Krpe¾any
+2691;1780;Ratkovo
+2692;6606;Nolèovo
+2693;7340;Turany
+2694;6590;Turèianska Štiavnièka
+2695;2277;Sklabinskı Podzámok
+2696;6571;Šútovo
+2697;2974;Podhradie
+2698;2277;Sklabiòa
+2699;3522;Záborie
+2700;3717;Turèianske Jaseno
+2701;2891;Belá - Dulice
+2702;2541;Diaková
+2703;1068;Drakovce
+2704;0;Martin
+2705;2541;Dolnı Kalník
+2706;2541;Hornı Kalník
+2707;6377;abokreky
+2708;6464;Košany nad Turcom
+2709;999;Bystrièka
+2710;3397;Trebostovo
+2711;4234;Trnovo
+2712;11209;Kra¾ovany
+2713;4554;¼ubochòa
+2714;5907;Turèiansky Peter
+2715;3050;Párnica
+2716;2621;aškov
+2717;980;Istebné
+2718;980;Velièná
+2719;980;Oravská Poruba
+2720;2713;Vyšnı Kubín
+2721;2530;Jasenová
+2722;4554;Stankovany
+2723;4554;Hubová
+2724;0;Ruomberok
+2725;26548;Liptovská Štiavnica
+2726;26548;Ludrová
+2727;26548;Štiavnièka
+2728;26548;Lisková
+2729;0;Liptovské Sliaèe
+2730;26548;Martinèek
+2731;27329;Likavka
+2732;2354;Valaská Dubová
+2733;2354;Komjatná
+2734;2851;Leštiny
+2735;2070;Osádka
+2736;0;Lúèky
+2737;1564;Liptovskı Michal
+2738;0;Ivachnová
+2739;0;Liptovská Teplá
+2740;0;Turík
+2741;0;Bešeòová
+2742;0;Kalameny
+2743;700;Potok
+2744;1260;Bobrovník
+2745;1564;Vlachy
+2746;938;Bukovina
+2747;700;Liptovská Anna
+2748;1809;Prosiek
+2749;1809;Iipovce
+2750;1809;Liptovská Sielnica
+2751;1809;Liptovskı Trnovec
+2752;1179;Malatiná
+2753;160;Ve¾ké Borové
+2754;160;Malé Borové
+2755;1809;Kvaèany
+2756;1809;Liptovské Matiašovce
+2757;165;Liptovské Beharovce
+2758;1250;Pucov
+2759;2070;Pokryváè
+2760;1074;Medzibrodie nad Oravou
+2761;0;Oravskı Podzámok
+2762;1250;Pribiš
+2763;1441;Horná Lehota
+2764;3063;Chlebnice
+2765;3063;Sedliacka Dubová
+2766;1929;Galovany
+2767;1929;Svätı Krí
+2768;1564;¼ube¾a
+2769;1564;Dúbrava
+2770;1564;Liptovské K¾aèany
+2771;365;Lazisko
+2772;1564;Malatíny
+2773;1564;Partizánska ¼upèa
+2774;4554;Švošov
+2775;0;Dolnı Kubín
+2776;891;Bziny
+2777;160;Huty
+2778;0;Zuberec
+2779;165;Pavlova Ves
+2780;165;Bobrovèek
+2781;165;Jalovec
+2782;1547;Smreèany
+2783;1071;Veterná Poruba
+2784;8724;Liptovskı Ondrej
+2785;1177;iar
+2786;165;Bobrovec
+2787;0;Liptovskı Mikuláš
+2788;165;Trstené
+2789;1033;Závaná Poruba
+2790;9363;Liptovskı Ján
+2791;13119;Liptovskı Hrádok
+2792;10535;Krá¾ova Lehota
+2793;11000;Liptovská Porúbka
+2794;15572;Liptovskı Peter
+2795;15279;Vavrišovo
+2796;10700;Podtureò
+2797;9956;Jamník
+2798;11027;Beòadiková
+2799;9229;Pribylina
+2800;1721;Konská
+2801;8724;Jakubovany
+2802;2226;Liptovská Kokava
+2803;14887;Hybe
+2804;6051;Vıchodná
+2805;12352;Uhorská Ves
+2806;6051;Vaec
+2807;8658;Dubové
+2808;12182;Ve¾kı Èepèín
+2809;12557;Malı Èepèín
+2810;12249;Ivanèiná
+2811;6699;Abramová
+2812;6589;Ondrašová
+2813;16153;Moškovec
+2814;8171;Blaovce
+2815;14179;Jazernica
+2816;13638;Bodorová
+2817;5603;Blatnica
+2818;12192;Mošovce
+2819;10478;Socovce
+2820;8741;Laskár
+2821;16751;Karlová
+2822;7887;Rakovo
+2823;7723;Príbovce
+2824;9456;Turèiansky Ïur
+2825;7448;Leiachov
+2826;7448;Slovany
+2827;5250;Kláštor pod Znievom
+2828;5504;Folkušová
+2829;4534;Necpaly
+2830;8201;Ïanová
+2831;8686;Benice
+2832;4531;Valèa
+2833;9927;Rakša
+2834;8565;Èremošné
+2835;10694;Háj
+2837;2933;Turèek
+2838;2933;Sklené
+2839;12409;Turèianske Teplice
+2840;9655;Horná Štubòa
+2841;121;Èièmany
+2842;4022;Slovenské Pravno
+2843;1374;Brieštie
+2844;2499;Budiš
+2845;2246;Jasenovo
+2846;3003;Liešno
+2847;3003;Rudno
+2848;2499;Ka¾amenová
+2849;2261;Vrícko
+2850;5764;Liptovská Osada
+2851;4301;Liptovská Lúna
+2852;361;Demänovská Dolina
+2853;487;Vyšná Boca
+2854;487;Niná Boca
+2855;2320;Maluiná
+2856;3036;Liptovské Revúce
+2857;2951;Sú¾ov - Hradná
+2858;13795;Varín
+2859;16784;apešovo
+2860;1929;Gôtovany
+2861;0;Pavèina Lehota
+2862;14069;Borcová
+2923;18383;Maršová - Rašov

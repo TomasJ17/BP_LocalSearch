@@ -8,7 +8,7 @@ static Solution applyTwoOpt(Solution sol, int i, int j) {
                  sol.route.begin() + j + 1);
     return sol;
 }
-
+/*
 // Implementacia zodpoveda pseudokodu TwoOpt_BestImprovement(tour) z kapitoly 2.3.1
 // Pseudokod popisuje jednu iteraciu - prehla vsetkych dvojic hran a najde
 // najlepsiu vymennu (bestDelta). V implementacii je pseudokod obaleny do while
@@ -61,6 +61,40 @@ Solution twoOpt(const Instance& inst, Solution sol) {
         }
 
         // --- koniec pseudokodu TwoOpt_BestImprovement ---
+    }
+
+    return sol;
+}
+*/
+// Test Two opt First Improvement - vymeni prve zlepsenie, ktore najde (nie najlepsie)
+Solution twoOpt(const Instance& inst, Solution sol) {
+    bool improved = true;
+
+    while (improved) {
+        improved = false;
+
+        for (int i = 1; i < (int)sol.route.size() - 2; ++i) {
+            for (int j = i + 2; j < (int)sol.route.size() - 1; ++j) {
+
+                double delta =
+                    inst.distance(sol.route[i],     sol.route[j])     +
+                    inst.distance(sol.route[i + 1], sol.route[j + 1]) -
+                    inst.distance(sol.route[i],     sol.route[i + 1]) -
+                    inst.distance(sol.route[j],     sol.route[j + 1]);
+
+                // iba realne zlepsenie (ochrana proti numerike)
+                if (delta < -1e-9) {
+                    std::reverse(sol.route.begin() + i + 1,
+                                 sol.route.begin() + j + 1);
+
+                    improved = true;
+
+                    goto next_iteration;
+                }
+            }
+        }
+
+        next_iteration:;
     }
 
     return sol;

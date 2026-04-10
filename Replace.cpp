@@ -1,5 +1,6 @@
 #include "Replace.h"
 #include <algorithm>
+#include <iostream>
 
 // Implementavcia zodpovedajuca pseudokodu Replace_Best(tour, unvisited, T_max) podla kapitoly 2.3.2
 // Replace nahradi navstiveny vrchol v trase nenavstivenym vrcholom, s vyssim profitom, ak je to mozne
@@ -26,7 +27,7 @@ Solution Replace(const Instance& inst, Solution sol,
         for (int u : remaining) {
 
             // for i = 0..len(tour)-2
-            for (int i = 0; i <= (int)sol.route.size() - 2; ++i) {
+            for (int i = 1; i <= (int)sol.route.size() - 2; ++i) {
 
                 // v = tour[i]
                 int v = sol.route[i];
@@ -42,6 +43,11 @@ Solution Replace(const Instance& inst, Solution sol,
                 double bestInsertExtra = 1e18;
 
                 for (int k = 0; k < (int)tourMinusV.size() - 1; ++k) {
+                    /*KVOLI TESTU RZZSSR*/
+                    if (u >= (int)inst.nodes.size() || tourMinusV[k] >= (int)inst.nodes.size()) {
+                        std::cout << "KATASTROFA: Indexy su vacsie ako pocet uzlov! u=" << u << ", v=" << tourMinusV[k] << std::endl;
+                        return sol; // Ukonči to skôr, než to spadne
+                }
                     double extra =
                         inst.distance(tourMinusV[k], u) +
                         inst.distance(u, tourMinusV[k + 1]) -
@@ -60,15 +66,16 @@ Solution Replace(const Instance& inst, Solution sol,
                 // if time(tourMinusV) + extraU2 <= T_max
                 if (distMinusV + bestInsertExtra <= inst.tMax) {
 
-                    // gain = profit(u) - profit(v)
-                    int gain = inst.nodes[u].profit - inst.nodes[v].profit;
+                    // POISTKA 1: Kontrola indexov pred prístupom k profitu
+                    if (u >= 0 && u < (int)inst.nodes.size() && v >= 0 && v < (int)inst.nodes.size()) {
+                        int gain = inst.nodes[u].profit - inst.nodes[v].profit;
 
-                    // if gain > bestGain
-                    if (gain > bestGain) {
-                        bestGain = gain;
-                        bestU    = u;
-                        bestV    = i;
-                        bestPos  = bestInsertPos;
+                        if (gain > bestGain) {
+                            bestGain = gain;
+                            bestU    = u;
+                            bestV    = i;
+                            bestPos  = bestInsertPos;
+                        }
                     }
                 }
             }
@@ -86,10 +93,14 @@ Solution Replace(const Instance& inst, Solution sol,
             sol.route.insert(sol.route.begin() + bestPos + 1, bestU);
 
             // Aktualizuj remaining - u uz nie je unvisited, v sa stal unvisited
-            remaining.erase(std::find(remaining.begin(), remaining.end(), bestU));
-            remaining.push_back(removedV);
-
-            improved = true;
+            auto it = std::find(remaining.begin(), remaining.end(), bestU);
+            if (it != remaining.end()) {
+                remaining.erase(it);
+                remaining.push_back(removedV);
+                improved = true;
+            }else{
+                improved = false;
+            }
         }
 
         // --- koniec pseudokodu Replace_Best ---

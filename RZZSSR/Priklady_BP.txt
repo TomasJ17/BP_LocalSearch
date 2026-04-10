@@ -1,0 +1,10 @@
+2645;Žilina;2627;Bytèa;12.2;0
+2704;Martin;2712;Kra¾ovany;15.3;0
+2645;Žilina;2580;Kysucké Nové Mesto;9.2;0
+2724;Ružomberok;2850;Liptovská Osada;14.5;0
+2787;Liptovský Mikuláš;2791;Liptovský Hrádok;8.7;0
+2567;Èadca;2563;Makov;27.1;1692
+2617;Trstená;2605;Námestovo;15.7;0
+2645;Žilina;2683;Streèno;9.9;0
+2704;Martin;2839;Turèianske Teplice;18.3;6464
+2787;Liptovský Mikuláš;2804;Východná;13.1;0

@@ -5,12 +5,12 @@
 // FirstImprovement - pri prvom zlepseni okamzite vyskoci a zacne odznova.
 // While cyklus opakuje kym existuje zlepsenie (rovnako ako TwoOpt a OrOpt)
 
-Solution mySwap(const Instance& instance, Solution sol) {
+Solution Swap(const Instance& instance, Solution sol) {
     bool improved = true;
     while(improved){
         improved = false;
         // Zaciatok pseudokodu Swap_First_Improvement
-        for(int i = 0; i <= sol.route.size() - 3; ++i){
+        for(int i = 1; i <= sol.route.size() - 3; ++i){
             for(int j = i+1; j <= sol.route.size() - 2; ++j){
                 // Vymen vrcholy na poziciach i a j
                 Solution newSolution = sol;

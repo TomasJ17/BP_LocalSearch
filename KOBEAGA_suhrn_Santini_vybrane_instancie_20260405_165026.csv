@@ -1,0 +1,20 @@
+TABULKA 1: PROFIT A CAS (GAP NA PROFIT)
+Algoritmus;Tsiligirides1_AvgProfitGap%;Tsiligirides1_AvgTime_ms;Tsiligirides2_AvgProfitGap%;Tsiligirides2_AvgTime_ms;Tsiligirides3_AvgProfitGap%;Tsiligirides3_AvgTime_ms;Chao64_AvgProfitGap%;Chao64_AvgTime_ms;Chao66_AvgProfitGap%;Chao66_AvgTime_ms;TSPLIB_AvgProfitGap%;TSPLIB_AvgTime_ms
+2-Opt;22.50;1.40;15.32;0.46;8.86;2.41;16.12;21.25;6.20;28.11;16.99;302.64
+Or-Opt;22.50;3.96;15.32;1.62;8.86;15.86;16.12;41.32;6.20;49.69;16.99;522.17
+Swap;22.50;1.67;15.32;0.56;8.86;2.88;16.12;23.55;6.20;31.01;16.99;324.10
+Replace;20.11;2.31;9.28;0.91;8.33;2.94;7.45;48.56;6.13;31.30;13.53;519.82
+
+TABULKA 2: VZDIALENOST A CAS (GAP NA VZDIALENOST)
+Algoritmus;Tsiligirides1_AvgDistGap%;Tsiligirides1_AvgTime_ms;Tsiligirides2_AvgDistGap%;Tsiligirides2_AvgTime_ms;Tsiligirides3_AvgDistGap%;Tsiligirides3_AvgTime_ms;Chao64_AvgDistGap%;Chao64_AvgTime_ms;Chao66_AvgDistGap%;Chao66_AvgTime_ms;TSPLIB_AvgDistGap%;TSPLIB_AvgTime_ms
+2-Opt;0.90;1.40;6.95;0.46;0.10;2.41;0.00;21.25;0.02;28.11;2.04;302.64
+Or-Opt;1.36;3.96;8.27;1.62;8.08;15.86;1.57;41.32;0.00;49.69;3.29;522.17
+Swap;0.71;1.67;4.04;0.56;3.66;2.88;0.00;23.55;0.00;31.01;1.52;324.10
+Replace;-2.04;2.31;-5.09;0.91;-0.51;2.94;-0.04;48.56;0.00;31.30;-0.03;519.82
+
+TABULKA 3: PROFIT A CELKOVY CAS (PO SKRATENI A VLOZENI)
+Algoritmus;Tsiligirides1_AvgProfitGap%;Tsiligirides1_AvgTime_ms;Tsiligirides2_AvgProfitGap%;Tsiligirides2_AvgTime_ms;Tsiligirides3_AvgProfitGap%;Tsiligirides3_AvgTime_ms;Chao64_AvgProfitGap%;Chao64_AvgTime_ms;Chao66_AvgProfitGap%;Chao66_AvgTime_ms;TSPLIB_AvgProfitGap%;TSPLIB_AvgTime_ms
+2-Opt;22.50;1.40;15.32;0.46;8.86;2.41;16.12;21.25;6.20;28.11;16.99;302.64
+Or-Opt;22.50;3.96;15.32;1.62;8.86;15.86;16.12;41.32;6.20;49.69;16.99;522.17
+Swap;22.50;1.67;15.32;0.56;8.86;2.88;16.12;23.55;6.20;31.01;16.99;324.10
+Replace;20.11;2.31;9.28;0.91;8.33;2.94;7.45;48.56;6.13;31.30;13.53;519.82

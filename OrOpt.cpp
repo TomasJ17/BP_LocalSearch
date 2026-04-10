@@ -16,7 +16,7 @@ Solution OrOpt(const Instance& inst, Solution sol) {
         for (int k = 1; k <= 3; ++k) {
 
             // for i = 0..len(tour)-1-k
-            for (int i = 0; i <= (int)sol.route.size() - 1 - k; ++i) {
+            for (int i = 1; i <= (int)sol.route.size() - 1 - k; ++i) {
 
                 // v = (tour[i],...,tour[i+k-1])
                 std::vector<int> v(sol.route.begin() + i,
